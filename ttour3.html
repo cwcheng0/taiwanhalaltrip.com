@@ -67,33 +67,30 @@
             your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-<nav class="nav navbar-default">
+   <nav class="nav navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
                 <a class="navbar-brand" href="#">Brand</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a data-toggle="tab" href="#home">Home</a></li>
-                <li><a data-toggle="tab" href="#menu1">Page 1</a></li>
-                <li><a data-toggle="tab" href="#menu2">Page 2</a></li>
-            </ul>
-        </div>
-    </nav>    
-        
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Some content.</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Some content in menu 1.</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Some content in menu 2.</p>
+            <div class="collapse navbar-collapse" id="myNavbar">//底下放要縮放的內容
+                <ul class="nav navbar-nav">
+                    <li><a data-toggle="tab" href="#home">Home</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Page 1</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Page 2</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+                    <li><a href="#">Log out</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+                </ul>
             </div>
         </div>
+    </nav> 
         
 
 
